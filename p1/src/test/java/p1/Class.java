@@ -18,11 +18,11 @@ driver.findElement(By.id("password")).sendKeys("S@urish123");
 driver.findElement(By.name("commit")).click();
 String title=driver.getTitle();
 System.out.println(title);
-Assert.assertEquals(title,"Sign in to GitHub · GitHub");
+Assert.assertEquals(title,"Sign in to GitHub Â· GitHub");
 System.out.println("continue....");
 System.out.println("continue....");
 System.out.println("continue....");
-
+System.out.println("continue....");
 
 }
 }
