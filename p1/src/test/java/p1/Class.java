@@ -20,6 +20,7 @@ String title=driver.getTitle();
 System.out.println(title);
 Assert.assertEquals(title,"Sign in to GitHub · GitHub");
 System.out.println("continue....");
+System.out.println("continue....");
 
 }
 }
